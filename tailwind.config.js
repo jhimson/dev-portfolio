@@ -166,6 +166,7 @@ module.exports = {
     },
     fontFamily: {
       Nunito: ['Nunito'],
+      Dosis: ['Dosis'],
       sans: [
         'ui-sans-serif',
         'system-ui',

@@ -1,4 +1,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  /*TODO NAVBAR CONTAINER ~~~ START */
+  .navbar-container {
+    background-color: #091c29;
+  }
+  /*TODO NAVBAR CONTAINER ~~~ END */
+
+  /*TODO NAV ITEM ~~~ START */
+  .nav-item {
+    @apply block my-4 text-2xl text-white border-b-4 border-transparent;
+  }
+
+  .nav-item:hover {
+    @apply border-blue-500;
+  }
+
+  @screen lg {
+    .nav-item {
+      @apply lg:mx-4 lg:my-0;
+    }
+  }
+  /*TODO NAV ITEM ~~~ END */
+}

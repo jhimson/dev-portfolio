@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap");
+
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /*
@@ -571,6 +573,42 @@ video {
     max-width: 1536px;
   }
 }
+
+.navbar-container {
+  background-color: #091c29;
+}
+
+/*TODO NAV ITEM ~~~ START */
+
+.nav-item {
+  border-color: transparent;
+  border-bottom-width: 4px;
+  display: block;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.nav-item:hover {
+  --tw-border-opacity: 1;
+  border-color: rgba(59, 130, 246, var(--tw-border-opacity));
+}
+
+@media (min-width: 1024px) {
+  @media (min-width: 1024px){
+    .nav-item{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+}
+
+/*TODO NAV ITEM ~~~ END */
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]){
   --tw-space-y-reverse: 0;
@@ -11199,6 +11237,10 @@ video {
 
 .font-Nunito{
   font-family: Nunito;
+}
+
+.font-Dosis{
+  font-family: Dosis;
 }
 
 .font-sans{
@@ -39840,6 +39882,10 @@ video {
     font-family: Nunito;
   }
 
+  .sm\:font-Dosis{
+    font-family: Dosis;
+  }
+
   .sm\:font-sans{
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
@@ -68400,6 +68446,10 @@ video {
 
   .md\:font-Nunito{
     font-family: Nunito;
+  }
+
+  .md\:font-Dosis{
+    font-family: Dosis;
   }
 
   .md\:font-sans{
@@ -96964,6 +97014,10 @@ video {
     font-family: Nunito;
   }
 
+  .lg\:font-Dosis{
+    font-family: Dosis;
+  }
+
   .lg\:font-sans{
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
@@ -125526,6 +125580,10 @@ video {
     font-family: Nunito;
   }
 
+  .xl\:font-Dosis{
+    font-family: Dosis;
+  }
+
   .xl\:font-sans{
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
@@ -154086,6 +154144,10 @@ video {
 
   .\32xl\:font-Nunito{
     font-family: Nunito;
+  }
+
+  .\32xl\:font-Dosis{
+    font-family: Dosis;
   }
 
   .\32xl\:font-sans{
