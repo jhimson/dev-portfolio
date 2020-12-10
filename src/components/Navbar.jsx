@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 import LOGO from '../assets/images/j•p.svg'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {AiOutlineClose} from 'react-icons/ai'
+import {Link as ScrollLink} from 'react-scroll'
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
@@ -21,7 +22,7 @@ const Navbar = () => {
             <div className={`${toggle ? 'flex' : 'hidden'} flex-col justify-center lg:items-center pb-4 lg:pb-0 lg:flex`}>
                 <nav>
                     <ul className="flex flex-col px-8 lg:flex-row">
-                        <li><a href="" className='nav-item'>Projects</a></li>
+                        <li><ScrollLink to='projects' smooth={true}><a href="" className='nav-item'>Projects</a></ScrollLink></li>
                         <li><a href="" className='nav-item'>Skills</a></li>
                         <li><a href="" className='nav-item'>Contact</a></li>
                     </ul>

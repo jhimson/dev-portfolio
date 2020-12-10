@@ -5,19 +5,19 @@
 @tailwind utilities;
 
 @layer components {
-  /*TODO NAVBAR CONTAINER ~~~ START */
+  /*? NAVBAR CONTAINER ~~~ START */
   .navbar-container {
     background-color: #091c29;
   }
-  /*TODO NAVBAR CONTAINER ~~~ END */
+  /*? NAVBAR CONTAINER ~~~ END */
 
-  /*TODO NAV ITEM ~~~ START */
+  /*? NAV ITEM ~~~ START */
   .nav-item {
     @apply block my-4 text-2xl text-white border-b-4 border-transparent;
   }
 
   .nav-item:hover {
-    @apply border-blue-500;
+    @apply border-indigo-600;
   }
 
   @screen lg {
@@ -25,5 +25,5 @@
       @apply lg:mx-4 lg:my-0;
     }
   }
-  /*TODO NAV ITEM ~~~ END */
+  /*? NAV ITEM ~~~ END */
 }

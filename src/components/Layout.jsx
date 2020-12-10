@@ -2,6 +2,8 @@ import React from 'react'
 import Header from './Header'
 import Navbar from './Navbar'
 import TechStack from './TechStack'
+import Projects from './Projects'
+
 
 const Layout = () => {
     return (
@@ -9,6 +11,7 @@ const Layout = () => {
         <Navbar/>
         <Header/>
         <TechStack />
+        <Projects/>
         </>
     )
 }
