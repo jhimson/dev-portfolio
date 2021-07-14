@@ -11,7 +11,7 @@ const Navbar = () => {
         //! Main navbar wrapper ~~~START
         <div className='flex flex-col justify-between py-3 mx-auto lg:flex-row lg:p-0 navbar-container'>
             <div className="flex items-center justify-between lg:mx-24">
-                <div className="flex cursor-pointer lg:animate-float">
+                <div className="flex cursor-pointer">
                     <img src={LOGO} alt="" className='w-24 h-24 lg:h-32 lg:w-32'/>
                 </div>
                 <div className="flex mr-4 lg:hidden">
