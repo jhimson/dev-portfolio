@@ -32,7 +32,7 @@ const Header = () => {
                         />
                     </div>
                     <ScrollLink to='stack' smooth={true}>
-                        <button className='px-10 py-2 mt-4 mb-4 text-2xl bg-indigo-600 rounded-lg animate-float focus:outline-none'>Discover More</button>
+                        <button className='px-10 py-2 mt-4 text-2xl bg-indigo-600 rounded-lg sm:mb-4 animate-float focus:outline-none'>Discover More</button>
                     </ScrollLink>
                 </div>
             </div>
