@@ -10,7 +10,9 @@ const Projects = () => {
         });
     },[])
     return (
-        <div className='grid justify-center min-h-screen mt-10 xl:grid-cols-4'  id='projects'>
+        <div className='mt-10' id='projects'>
+            <div className='mb-24 text-6xl font-bold text-center font-Dosis projects-header' data-aos='fade-left'>Some Things I’ve Built</div>
+            <div className='grid justify-center min-h-screen xl:grid-cols-4'>
             <div data-aos='flip-left' className="mx-auto bg-white border-2 rounded-lg shadow-2xl lg:w-5/6 card-container h-2/3">
                 <div className="p-2 bg-red-200 card-header">
                     <img src={sharmine} alt="" className='w-full h-72'/>
@@ -50,7 +52,7 @@ const Projects = () => {
                     <button className='px-5 py-2 mt-10 text-xl text-white bg-indigo-600 rounded-lg animate-float focus:outline-none'>Live Demo</button>
                 </div>
             </div>
-            
+            </div>
         </div>
     )
 }
