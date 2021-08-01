@@ -1,10 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import sharmine from '../assets/images/sharmine.jpg'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 const Projects = () => {
+    useEffect(()=>{
+        AOS.init({
+            duration: 2000
+        });
+    },[])
     return (
         <div className='grid justify-center min-h-screen mt-10 xl:grid-cols-4'  id='projects'>
-            <div className="mx-auto bg-white border-2 rounded-lg shadow-2xl lg:w-5/6 card-container h-2/3">
+            <div data-aos='flip-left' className="mx-auto bg-white border-2 rounded-lg shadow-2xl lg:w-5/6 card-container h-2/3">
                 <div className="p-2 bg-red-200 card-header">
                     <img src={sharmine} alt="" className='w-full h-72'/>
                 </div>
@@ -14,7 +21,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="mx-auto bg-white border-2 rounded-lg shadow-2xl lg:w-5/6 card-container h-2/3">
+            <div data-aos='flip-left' className="mx-auto bg-white border-2 rounded-lg shadow-2xl lg:w-5/6 card-container h-2/3">
                 <div className="p-2 bg-red-200 card-header">
                     <img src={sharmine} alt="" className='w-full h-72'/>
                 </div>
@@ -24,7 +31,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="mx-auto bg-white border-2 rounded-lg shadow-2xl lg:w-5/6 card-container h-2/3">
+            <div data-aos='flip-left' className="mx-auto bg-white border-2 rounded-lg shadow-2xl lg:w-5/6 card-container h-2/3">
                 <div className="p-2 bg-red-200 card-header">
                     <img src={sharmine} alt="" className='w-full h-72'/>
                 </div>
@@ -34,7 +41,7 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="mx-auto bg-white border-2 rounded-lg shadow-2xl lg:w-5/6 card-container h-2/3">
+            <div data-aos='flip-left' className="mx-auto bg-white border-2 rounded-lg shadow-2xl lg:w-5/6 card-container h-2/3">
                 <div className="p-2 bg-red-200 card-header">
                     <img src={sharmine} alt="" className='w-full h-72'/>
                 </div>
