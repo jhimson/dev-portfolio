@@ -1,15 +1,23 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import Postgres from '../assets/images/postgres.webp'
 import Node from '../assets/images/node.png'
 import Express from '../assets/images/express.png'
 import ReactJS from '../assets/images/react.svg'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 
 const TechStack = () => {
+
+    useEffect(()=>{
+        AOS.init({
+            duration: 2000
+        });
+    },[])
     
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100" id='stack'>
-            <h1 className='text-5xl font-bold font-Dosis'>Stack I use</h1>
+        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100" id='stack' data-aos='fade-left'>
+            <h1 className='text-5xl font-bold font-Dosis' >Stack I use</h1>
             <div className='flex flex-wrap justify-center mt-10'>
                 <span className='flex items-center w-40 h-40 p-8 m-2 bg-white rounded-full shadow-2xl animate-float'><LazyLoadImage src={Postgres}/></span>
                 <span className='flex items-center w-40 h-40 p-8 m-2 bg-white rounded-full shadow-2xl animate-refloat'><LazyLoadImage src={Express}/></span>
