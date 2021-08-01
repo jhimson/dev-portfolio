@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
+    "aos": "^2.3.4",
     "autoprefixer": "^9.8.6",
     "postcss": "^7.0.35",
     "postcss-cli": "^8.3.0",
