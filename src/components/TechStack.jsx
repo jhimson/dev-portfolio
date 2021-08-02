@@ -16,7 +16,7 @@ const TechStack = () => {
     },[])
     
     return (
-        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100" id='stack' data-aos='fade-left'>
+        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100" id='tech-stack' data-aos='fade-left'>
             <h1 className='text-6xl font-bold font-Dosis' >Stack I use</h1>
             <div className='flex flex-wrap justify-center mt-24'>
                 <span className='flex items-center w-40 h-40 p-8 m-2 bg-white rounded-full shadow-2xl animate-float'><LazyLoadImage src={Postgres}/></span>
