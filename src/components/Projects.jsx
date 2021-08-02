@@ -1,5 +1,4 @@
 import React,{useEffect} from 'react'
-import sharmine from '../assets/images/sharmine.jpg'
 import goalAchievement from '../assets/images/goal-achievement.jpg'
 import trivia from '../assets/images/trivia.JPG'
 import recipe from '../assets/images/food.JPG'

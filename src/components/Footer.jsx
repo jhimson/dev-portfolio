@@ -2,7 +2,6 @@ import React from 'react'
 import {FaFacebookSquare, FaLinkedin, FaTwitter, FaGithub, FaInstagram} from 'react-icons/fa'
 
 const Footer = () => {
-    const x = 0
     return (
         <div className='flex flex-col items-center justify-center space-y-5 h-36' style={{backgroundColor: '#091c29'}}>
             <div className="flex space-x-5 icons">
