@@ -22,9 +22,9 @@ const Navbar = () => {
             <div className={`${toggle ? 'flex' : 'hidden'} flex-col justify-center lg:items-center pb-4 lg:pb-0 lg:flex`}>
                 <nav>
                     <ul className="flex flex-col px-8 lg:flex-row">
-                        <li><ScrollLink to='projects' smooth={true}><a href="" className='nav-item'>Projects</a></ScrollLink></li>
-                        <li><ScrollLink to='tech-stack' smooth={true}><a href="" className='nav-item'>Tech Stack</a></ScrollLink></li>
-                        <li><a href="" className='nav-item'>Resume</a></li>
+                        <li className="text-gray-500"><ScrollLink to='projects' smooth={true}><a href="" className='nav-item'>Projects</a></ScrollLink></li>
+                        <li className="text-gray-500"><ScrollLink to='tech-stack' smooth={true}><a href="" className='nav-item'>Tech Stack</a></ScrollLink></li>
+                        <li className="text-gray-500"><a href="" className='nav-item'>Resume</a></li>
                     </ul>
                 </nav>
             </div>
