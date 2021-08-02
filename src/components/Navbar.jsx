@@ -23,8 +23,8 @@ const Navbar = () => {
                 <nav>
                     <ul className="flex flex-col px-8 lg:flex-row">
                         <li><ScrollLink to='projects' smooth={true}><a href="" className='nav-item'>Projects</a></ScrollLink></li>
-                        <li><a href="" className='nav-item'>Skills</a></li>
-                        <li><a href="" className='nav-item'>Contact</a></li>
+                        <li><ScrollLink to='tech-stack' smooth={true}><a href="" className='nav-item'>Tech Stack</a></ScrollLink></li>
+                        <li><a href="" className='nav-item'>Resume</a></li>
                     </ul>
                 </nav>
             </div>
