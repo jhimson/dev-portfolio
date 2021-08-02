@@ -3,6 +3,7 @@ import Header from './Header'
 import Navbar from './Navbar'
 import TechStack from './TechStack'
 import Projects from './Projects'
+import Footer from './Footer'
 
 
 const Layout = () => {
@@ -12,6 +13,7 @@ const Layout = () => {
         <Header/>
         <TechStack />
         <Projects/>
+        <Footer/>
         </>
     )
 }
