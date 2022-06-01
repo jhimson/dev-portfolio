@@ -35,7 +35,7 @@ const Projects = () => {
                     
                 </div>
                 <div className='flex items-center justify-around'>
-                <button className='px-5 py-2 mt-10 text-xl text-white bg-blue-400 rounded-lg focus:outline-none hover:bg-blue-500'>View Live</button>
+                <button className='px-5 py-2 mt-10 text-xl text-white bg-blue-400 rounded-lg focus:outline-none hover:bg-blue-500'><a href="https://goal-achievement-app.site/" target={"_blank"} rel="nonreferrer">View Live</a></button>
                 <button className='px-5 py-2 mt-10 text-xl text-white bg-green-400 rounded-lg focus:outline-none hover:bg-green-500'>View Code</button>
                 </div>
             </div>
@@ -54,7 +54,7 @@ const Projects = () => {
                     
                 </div>
                 <div className='flex items-center justify-around'>
-                <button className='px-5 py-2 mt-10 text-xl text-white bg-blue-400 rounded-lg focus:outline-none hover:bg-blue-500'>View Live</button>
+                <button className='px-5 py-2 mt-10 text-xl text-white bg-blue-400 rounded-lg focus:outline-none hover:bg-blue-500'><a href="https://tastyfoodsearch.netlify.app/" target={"_blank"} rel="nonreferrer">View Live</a></button>
                 <button className='px-5 py-2 mt-10 text-xl text-white bg-green-400 rounded-lg focus:outline-none hover:bg-green-500'>View Code</button>
                 </div>
             </div>
@@ -76,7 +76,7 @@ const Projects = () => {
                     
                 </div>
                 <div className='flex items-center justify-around'>
-                <button className='px-5 py-2 mt-10 text-xl text-white bg-blue-400 rounded-lg focus:outline-none hover:bg-blue-500'>View Live</button>
+                <button className='px-5 py-2 mt-10 text-xl text-white bg-blue-400 rounded-lg focus:outline-none hover:bg-blue-500'><a href="https://braintriviaquiz.netlify.app/" target={"_blank"} rel="nonreferrer">View Live</a></button>
                 <button className='px-5 py-2 mt-10 text-xl text-white bg-green-400 rounded-lg focus:outline-none hover:bg-green-500'>View Code</button>
                 </div>
             </div>
