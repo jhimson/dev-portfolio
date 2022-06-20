@@ -26,7 +26,7 @@ const TechStack = () => {
                 <span className='flex items-center w-40 h-40 p-8 m-2 bg-white rounded-full shadow-2xl animate-float'><LazyLoadImage src={ReactJS}/></span>
                 <span className='flex items-center w-40 h-40 p-8 m-2 bg-white rounded-full shadow-2xl animate-refloat'><LazyLoadImage src={Node}/></span>
             </div>
-            <p className='w-11/12 mx-auto mt-10 text-2xl text-center lg:max-w-2xl'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam voluptates, cumque quisquam perferendis exercitationem accusamus. Veritatis officiis, optio asperiores quisquam ratione dicta blanditiis, in voluptatum neque deleniti cupiditate eaque cum.</p>
+            {/* <p className='w-11/12 mx-auto mt-10 text-2xl text-center lg:max-w-2xl'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam voluptates, cumque quisquam perferendis exercitationem accusamus. Veritatis officiis, optio asperiores quisquam ratione dicta blanditiis, in voluptatum neque deleniti cupiditate eaque cum.</p> */}
         </div>
     )
 }

@@ -57,7 +57,13 @@ const Projects = () => {
               </a>
             </button>
             <button className="px-5 py-2 mt-10 text-xl text-white bg-green-400 rounded-lg focus:outline-none hover:bg-green-500">
-              View Code
+            <a
+                href="https://github.com/jhimson/goal-achievement-app"
+                target={'_blank'}
+                rel="nonreferrer"
+              >
+                View Code
+              </a>
             </button>
           </div>
         </div>
@@ -93,7 +99,13 @@ const Projects = () => {
               </a>
             </button>
             <button className="px-5 py-2 mt-10 text-xl text-white bg-green-400 rounded-lg focus:outline-none hover:bg-green-500">
-              View Code
+              <a
+                href="https://github.com/jhimson/recipe-search-app"
+                target={'_blank'}
+                rel="nonreferrer"
+              >
+                View Code
+              </a>
             </button>
           </div>
         </div>
@@ -177,7 +189,13 @@ const Projects = () => {
               </a>
             </button>
             <button className="px-5 py-2 mt-10 text-xl text-white bg-green-400 rounded-lg focus:outline-none hover:bg-green-500">
-              View Code
+              <a
+                href="https://github.com/jhimson/trivia-quiz-app"
+                target={'_blank'}
+                rel="nonreferrer"
+              >
+                View Code
+              </a>
             </button>
           </div>
         </div>
