@@ -1,5 +1,6 @@
 import React,{useEffect} from 'react'
 import Postgres from '../assets/images/postgres.webp'
+import Mongodb from '../assets/images/mongodb.png'
 import Node from '../assets/images/node.png'
 import Express from '../assets/images/express.png'
 import ReactJS from '../assets/images/react.svg'
@@ -20,6 +21,7 @@ const TechStack = () => {
             <h1 className='text-6xl font-bold font-Dosis' >Stack I use</h1>
             <div className='flex flex-wrap justify-center mt-24'>
                 <span className='flex items-center w-40 h-40 p-8 m-2 bg-white rounded-full shadow-2xl animate-float'><LazyLoadImage src={Postgres}/></span>
+                <span className='flex items-center w-40 h-40 p-8 m-2 bg-white rounded-full shadow-2xl animate-float'><LazyLoadImage src={Mongodb}/></span>
                 <span className='flex items-center w-40 h-40 p-8 m-2 bg-white rounded-full shadow-2xl animate-refloat'><LazyLoadImage src={Express}/></span>
                 <span className='flex items-center w-40 h-40 p-8 m-2 bg-white rounded-full shadow-2xl animate-float'><LazyLoadImage src={ReactJS}/></span>
                 <span className='flex items-center w-40 h-40 p-8 m-2 bg-white rounded-full shadow-2xl animate-refloat'><LazyLoadImage src={Node}/></span>
