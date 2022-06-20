@@ -1,1 +1,6 @@
-# Developer Portfolio created using ReactJS and TailwindCSS
+# Developer Portfolio
+### Technologies Used
+- HTML
+- CSS
+- TailwindCSS
+- ReactJS
