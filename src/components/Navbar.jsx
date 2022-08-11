@@ -4,6 +4,7 @@ import LOGO from '../assets/images/j•p.svg'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {AiOutlineClose} from 'react-icons/ai'
 import {Link as ScrollLink} from 'react-scroll'
+import resume from "../assets/files/jhimson_pamisa.pdf"
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false);
@@ -24,7 +25,7 @@ const Navbar = () => {
                     <ul className="flex flex-col px-8 lg:flex-row">
                         <li className="text-gray-500"><ScrollLink to='projects' smooth={true}><a href="" className='nav-item'>Projects</a></ScrollLink></li>
                         <li className="text-gray-500"><ScrollLink to='tech-stack' smooth={true}><a href="" className='nav-item'>Tech Stack</a></ScrollLink></li>
-                        <li className="text-gray-500"><a href="" className='nav-item'>Resume</a></li>
+                        <li className="text-gray-500"><a href={resume} target={'_blank'} className='nav-item' download={true}>Resume</a></li>
                     </ul>
                 </nav>
             </div>

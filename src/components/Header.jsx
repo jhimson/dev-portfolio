@@ -14,14 +14,14 @@ const Header = () => {
         <div className='flex flex-col items-center justify-center' style={{backgroundColor: '#091c29'}}>
             <div className="flex flex-col min-h-screen lg:flex-row-reverse">
                 <div className={`lg:ml-72 ${animated ? "" : 'translate-y-10 opacity-0'} transform transition duration-2000 ease-in-out`}>
-                    <LazyLoadImage src={DevImage} effect="blur" className='w-full rounded-lg opacity-40 lg:w-4/5 lg:h-4/5'/>
+                    <LazyLoadImage src={DevImage} effect="blur" className='w-full rounded-lg opacity-100 lg:w-4/5 lg:h-4/5'/>
                 </div>
                 <div className='flex flex-col items-center justify-center text-left font-Dosis'>
                     <div className={`${animated ? "" : 'translate-y-10 opacity-0'} text-3xl transform transition duration-2000 ease-in-out`}>
                         <h2 className={` text-4xl text-indigo-500`}>
                                 Hi, my name is
                         </h2>
-                        <p className='my-4 text-3xl font-bold text-gray-300 lg:text-7xl'>Jhimson Pamisa.</p>
+                        <p className='my-4 text-3xl font-bold text-gray-300 lg:text-7xl'>Jim Pamisa.</p>
                         <p className='my-4 text-3xl font-bold text-center text-gray-500 lg:text-7xl'>I build things for the web.</p>
                         <div className={`${animated ? "" : 'translate-y-10 opacity-0'} transform transition duration-2000 ease-in-out inline-block my-4 text-4xl text-gray-500`}>
                             <Typical

@@ -19,7 +19,7 @@ const Projects = () => {
         className="mb-24 text-6xl font-bold text-center font-Dosis projects-header"
         data-aos="fade-left"
       >
-        Some Things I’ve Built
+        Some apps I’ve Built
       </div>
       <div className="grid justify-center min-h-screen xl:grid-cols-4">
         <div
