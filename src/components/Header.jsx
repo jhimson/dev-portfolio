@@ -14,7 +14,7 @@ const Header = () => {
         <div className='flex flex-col items-center justify-center' style={{backgroundColor: '#091c29'}}>
             <div className="flex flex-col min-h-screen lg:flex-row-reverse">
                 <div className={`lg:ml-72 ${animated ? "" : 'translate-y-10 opacity-0'} transform transition duration-2000 ease-in-out`}>
-                    <LazyLoadImage src={DevImage} effect="blur" className='w-full rounded-lg opacity-100 lg:w-4/5'/>
+                    <LazyLoadImage src={DevImage} effect={"opacity"} className='w-full rounded-lg opacity-100 lg:w-4/5'/>
                 </div>
                 <div className='flex flex-col items-center justify-center text-left font-Dosis'>
                     <div className={`${animated ? "" : 'translate-y-10 opacity-0'} text-3xl transform transition duration-2000 ease-in-out`}>
