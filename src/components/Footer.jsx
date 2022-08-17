@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center space-y-5 h-36"
+      className="flex flex-col items-center justify-center mt-24 space-y-5 h-36"
       style={{ backgroundColor: '#091c29' }}
     >
       <div className="flex space-x-5 icons">
