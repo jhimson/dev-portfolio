@@ -41,7 +41,7 @@ const Projects = () => {
           tools={
             'React, Express, MongoDB, Mongoose, Tailwindcss, Alphavantage API, Twelvedata API, News API'
           }
-          liveLink={`https://thehoodapp.herokuapp.com`}
+          liveLink={`https://thehood-api.onrender.com`}
           codeLink={`https://github.com/jhimson/TheHood`}
         />
 
